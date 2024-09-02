@@ -43,6 +43,8 @@ function getItemById(itemId) {
       return <C />
     case 'd':
       return <D />
+    default:
+      return null
   }
 }
 
