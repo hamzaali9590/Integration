@@ -60,6 +60,7 @@ function App() {
   }, [])
   return (
     <div className="container">
+        <h1>Swappy container example</h1>
         <div className="slot a" data-swapy-slot="1">
           {getItemById(slotItems['1'])}
         </div>
